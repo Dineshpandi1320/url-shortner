@@ -20,10 +20,10 @@ export default function App() {
         <Toolbar>
 
           <Button onClick={()=>navigate("/")} color="inherit">HOME</Button>
-          {/* <Button onClick={()=>navigate("/url-short")} color="inherit">URL-SHORTENER</Button> */}
+
           <Button sx={{marginLeft:"auto"}}  onClick={()=>navigate("/signup")} color="inherit">SIGNUP</Button>
           <Button onClick={()=>navigate("/login")} color="inherit">LOGIN</Button>
-          {/* <Button onClick={()=>navigate("/reset")} color="inherit">reset</Button> */}
+  
          
 
         </Toolbar>
@@ -31,7 +31,7 @@ export default function App() {
        <Routes>
         
           <Route path="/" element={<Home />} />
-          {/* <Route path="/url-short" element={ <Url/></ProductedRoute>} /> */}
+     
           <Route path="/signup" element={ <Signup/>} />
           <Route path="/login" element={ <Login/>} />
           <Route path="/forgot" element={ <Forgot/>} />

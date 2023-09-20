@@ -71,7 +71,7 @@ alert(err)
       <Table sx={{      Width: 1000 }} aria-label="customized table">
         <TableHead className='head'>
           <TableRow>
-            {/* <StyledTableCell align='center'>Id</StyledTableCell> */}
+       
             <StyledTableCell align="center">full url</StyledTableCell>
             <StyledTableCell align="center">short url</StyledTableCell>
            
@@ -80,11 +80,7 @@ alert(err)
         <TableBody className='body'>
         
           
-            {/* {input.map((income) => (
-            <StyledTableRow key={income._id}>
-              {/* <StyledTableCell component="th" scope="row">
-                {income._id}
-              // </StyledTableCell> */} 
+  
               <StyledTableCell align="center">{input}</StyledTableCell>
               <StyledTableCell align="center"><a href={result}>{result}</a></StyledTableCell>
         
